@@ -1,0 +1,5 @@
+[build]
+command = "echo Build done"
+
+[start]
+command = "psql $DATABASE_URL -f demo_table.sql"
